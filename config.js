@@ -49,7 +49,7 @@ global.stickpack = "Created By";
 global.stickauth = "𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱";
 
 global.title = "𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱";
-global.body = "MESSAGE IN A BOTTLE";
+global.body = "bxx?";
 global.thumbnailUrl = "https://raw.githubusercontent.com/bayuasli/dat2/main/uploads/946819-1770118073900.jpg";
 
 // === Hot Reload for config.js ===
