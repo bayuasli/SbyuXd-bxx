@@ -4,13 +4,13 @@
   "description": "Lightweight WhatsApp Multi-Device bot built with Baileys.",
   "license": "ISC",
   "author": "Sibayuu",
-  "homepage": "https://github.com/AgusXzz/ESEMPE-MD#readme",
+  "homepage": "https://github.com/bayuasli/-#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgusXzz/ESEMPE-MD.git"
+    "url": "git+https://github.com/bayuasli/-.git"
   },
   "bugs": {
-    "url": "https://github.com/AgusXzz/ESEMPE-MD/issues"
+    "url": "https://github.com/bayuasli/-/issues"
   },
   "type": "module",
   "main": "index.js",
