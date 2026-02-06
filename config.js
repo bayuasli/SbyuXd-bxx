@@ -7,8 +7,8 @@ import { LanguageManager } from "#lib/LanguageManager.js";
 // === General Configuration ===
 
 // Pairing number (used for QR/Pairing code scanning)
-global.PAIRING_NUMBER = 628895307489;
-// global.PAIRING_NUMBER = 62882003353414;
+global.PAIRING_NUMBER = 6288228819127;
+
 
 // Main and backup owner numbers
 global.ownerNumber = ["6288228819127", "6288228819127", "628895307489"];
@@ -19,7 +19,7 @@ global.IS_PUBLIC = true;
 // === WhatsApp Status Reader Settings ===
 global.readsw = {
   active: true,
-  react: false,
+  react: true,
   emoji: ["🔥", "💀", "☠️", "🥀", "🥶"],
 };
 
@@ -48,9 +48,9 @@ global.mess = {
 global.stickpack = "Created By";
 global.stickauth = "𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱";
 
-global.title = "𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱";
+global.title = "SbyuXd!";
 global.body = "bxx?";
-global.thumbnailUrl = "https://raw.githubusercontent.com/bayuasli/dat2/main/uploads/946819-1770118073900.jpg";
+global.thumbnailUrl = "https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/3cc483-1770382838164.jpg";
 
 // === Hot Reload for config.js ===
 const file = fileURLToPath(import.meta.url);
