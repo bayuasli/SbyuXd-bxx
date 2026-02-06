@@ -1,4 +1,4 @@
-# ESEMPE-MD
+# SBYUXD-BXX
 
 <div align="center">
 
@@ -45,8 +45,8 @@ Follow these steps to install and run the bot:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/bayuasli/-
-cd -
+git https://github.com/bayuasli/SbyuXd-bxx
+cd SbyuXd-bxx
 ```
 
 ### 2. Install Dependencies
@@ -183,7 +183,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 **Maintainer:** Sibayuu  
-**Repository:** [https://github.com/bayuasli/-](https://github.com/bayuasli/-)
+**Repository:** [https://github.com/bayuasli/SbyuXhttps://github.com/bayuasli/SbyuXd-bxx)
 
 ---
 
