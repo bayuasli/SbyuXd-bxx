@@ -193,11 +193,11 @@ export default {
       ctx.fillStyle = bgGradient
       ctx.fillRect(0, 0, width, height)
 
-      // HEADER: Elaina MONITOR
+      // HEADER: 𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁 MONITOR
       ctx.font = 'bold 56px Inter'
       ctx.fillStyle = '#ffffff'
       ctx.textAlign = 'center'
-      ctx.fillText('SIBAYU MONITOR', width/2, 80)
+      ctx.fillText('SIBAYUXD MONITOR', width/2, 80)
       
       ctx.font = '24px Inter'
       ctx.fillStyle = '#a0aec0'
