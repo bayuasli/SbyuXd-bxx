@@ -27,7 +27,7 @@ export default {
 
     let menu = `
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-┃ 𝗠𝗘𝗡𝗨 𝗦𝗜𝗕𝗔𝗬𝗨𝗫𝗗-𝗕𝗢𝗧
+┃ MENU SBYUXD BOT
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ┃ 👤 User   : ${m.pushname}
 ┃ 🌐 Mode   : ${IS_PUBLIC ? "PUBLIC" : "SELF"}
