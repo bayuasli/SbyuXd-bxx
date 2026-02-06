@@ -30,7 +30,7 @@
     "termux"
   ],
   "dependencies": {
-    "@whiskeysockets/baileys": "github:z4phdev/baileys",
+    "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys",
     "archiver": "^7.0.1",
     "async-mutex": "^0.5.0",
     "axios": "^1.13.4",
