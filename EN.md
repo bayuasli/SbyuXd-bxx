@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![ESEMPE-MD Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaK3_60MiEWpItg8BbrvcF4Be_vgIDd8Ggj13AYkPqGdUosLSmCMCtGSY&s=10)
+![SIBAYUXD Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaK3_60MiEWpItg8BbrvcF4Be_vgIDd8Ggj13AYkPqGdUosLSmCMCtGSY&s=10)
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://www.javascript.com/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Multi--Device-25D366.svg)](https://whatsapp.com/)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/AgusXzz/ESEMPE-MD)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/bayuasli/-)
 
 A simple, lightweight, and easily customizable WhatsApp Multi-Device bot with a focus on stability and ease of use.
 
@@ -45,8 +45,8 @@ Follow these steps to install and run the bot:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/AgusXzz/ESEMPE-MD
-cd ESEMPE-MD
+git clone https://github.com/bayuasli/-
+cd -
 ```
 
 ### 2. Install Dependencies
@@ -139,7 +139,7 @@ export default {
 ## Directory Structure
 
 ```
-ESEMPE-MD/
+𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁/
 ├── lib/
 │   ├── api.js              # API wrapper functions
 │   ├── color.js            # Console color utilities
@@ -182,14 +182,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-**Maintainer:** AgusXzz  
-**Repository:** [https://github.com/AgusXzz/ESEMPE-MD](https://github.com/AgusXzz/ESEMPE-MD)
+**Maintainer:** Sibayuu  
+**Repository:** [https://github.com/bayuasli/-](https://github.com/bayuasli/-)
 
 ---
 
 ## Acknowledgments
 
-Special thanks to the following contributors and projects that have helped in the development of ESEMPE-MD:
+Special thanks to the following contributors and projects that have helped in the development of 𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁:
 
 <table>
   <tr>
@@ -218,14 +218,14 @@ Special thanks to the following contributors and projects that have helped in th
       <a href="https://github.com/AgusXzz">
         <img src="https://github.com/AgusXzz.png?size=100" width="100px;" alt="Agus"/>
         <br />
-        <sub><b>Agus</b></sub>
+        <sub><b>bxx</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/purrbits">
+      <a href="https://github.com/bayuasli">
         <img src="https://github.com/purrbits.png?size=100" width="100px;" alt="Senn"/>
         <br />
-        <sub><b>Senn</b></sub>
+        <sub><b>Sibayu</b></sub>
       </a>
     </td>
     <td align="center">
@@ -242,7 +242,7 @@ Special thanks to the following contributors and projects that have helped in th
 
 <div align="center">
 
-**Made with ❤️ by the ESEMPE-MD Team**
+**Made with ❤️ by the 𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁**
 
 ⭐ Don't forget to give a star if this project helps you!
 
