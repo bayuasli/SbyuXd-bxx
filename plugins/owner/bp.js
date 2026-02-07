@@ -43,7 +43,7 @@ export default {
 
       await conn.sendMessage(m.chat, {
         document: fs.readFileSync("./backup.zip"),
-        fileName: "ESEMPEH-SIBAYU.zip",
+        fileName: "SbyuXd-bxxBot.zip",
         mimetype: "application/zip",
         caption: "✅ Backup berhasil dibuat"
       }, { quoted: m })
