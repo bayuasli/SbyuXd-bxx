@@ -1,4 +1,4 @@
-```markdown
+markdown
 <div align="center">
 
 <!-- Animasi teks berkedip -->
@@ -439,4 +439,3 @@ https://img.shields.io/badge/STAR-US!-ffd700?style=for-the-badge&logo=github&log
 }
 </style>
 
-```
