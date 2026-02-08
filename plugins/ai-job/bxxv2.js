@@ -68,7 +68,7 @@ export default {
   name: "bxxv2",
   category: "ai-job",
   command: ["bxx2"],
-  alias: ["ai", "ask", "bot"],
+  alias: ["bxxv2", "bxxai", "bxx2"],
   
   settings: {
     owner: false,
