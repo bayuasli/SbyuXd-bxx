@@ -1,194 +1,269 @@
-# SBYUXD-BXX
+SBYUXD-BXX
 
-<div align="center">
+<div align="center">  
 
-![SIBAYUXD Banner](https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/ea972f-1770551587133.jpg)
 
-[![Node.js](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
-[![Architecture](https://img.shields.io/badge/architecture-Plugin%20Driven-black.svg)]
-[![Database](https://img.shields.io/badge/database-better--sqlite3-blue.svg)]
-[![Runtime](https://img.shields.io/badge/runtime-Optimized-red.svg)]
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Multi--Device-25D366.svg)](https://whatsapp.com/)
 
-A performance-focused WhatsApp Multi-Device bot built with modular architecture, optimized memory handling, and production-grade stability.
 
-</div>
+
+
+
+A simple, lightweight, and easily customizable WhatsApp Multi-Device bot with a focus on stability and ease of use.
+
+Features • Installation • Documentation • Contributing
+
+</div>  
+---
+
+Features
+
+• clean, straight, no cringe:
+
+• Multi Device Support - Fully compatible with WhatsApp Multi-Device
+
+• Plugin Architecture - Modular plugin system for scalable development
+
+• Lightweight - Optimized for low resource usage
+
+• Stable - Designed with reliability as priority
+
+• Easy to Use - Simple setup and configuration
+
+• Powered by better-sqlite3 - Fast and efficient local database engine
+
+• Queue System - Built-in message queue for smooth task handling
+
+• Rate Limiter - Anti-spam protection with smart delay control
+
+• Hot Plugin Loader - Auto-detect and load plugins dynamically
+
+• Owner Evaluation Mode - Built-in eval & shell execution system
+
+• Context-Based Permission System - Owner, admin, group, and private level control
+
+• Memory Optimized - Periodic garbage collection for long uptime stability
+
 
 ---
 
-## ⚙ Core Features
+System Requirements
 
-- **Multi-Device Ready**  
-  Seamless compatibility with WhatsApp Multi-Device protocol.
+Before getting started, ensure your system meets the following requirements:
 
-- **Modular Plugin System**  
-  Scalable architecture designed for clean feature isolation.
+Node.js version 20 or higher
 
-- **Performance Oriented**  
-  Optimized memory usage with controlled execution flow.
+npm or yarn package manager
 
-- **Queue Engine**  
-  Internal task queue to prevent overload and race conditions.
+Stable internet connection for authentication
 
-- **Smart Rate Limiter**  
-  Anti-spam system with adaptive cooldown logic.
 
-- **better-sqlite3 Powered**  
-  High-speed local database engine with synchronous stability.
-
-- **Dynamic Plugin Loader**  
-  Auto-detect and load plugins without bloating the core system.
-
-- **Granular Permission Control**  
-  Owner / Admin / Group / Private scoped command restrictions.
-
-- **Eval & Shell Access (Owner Only)**  
-  Built-in secure evaluation and execution system.
-
-- **Long Uptime Optimized**  
-  Periodic garbage collection for stable 24/7 runtime.
 
 ---
 
-## 🧱 Architecture Overview
+Installation
 
-𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁 is built around a queued execution core system to ensure:
+Follow these steps to install and run the bot:
 
-- Controlled message processing
-- No race-condition command execution
-- Memory-safe runtime
-- Clear plugin isolation
+1. Clone Repository
 
-The handler dynamically loads plugins and executes them through a permission-gated context layer.
-
----
-
-## 🖥 System Requirements
-
-- Node.js **v20+**
-- npm or yarn
-- Stable internet connection
-
----
-
-## 🚀 Installation
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/bayuasli/SbyuXd-bxx.git
+git https://github.com/bayuasli/SbyuXd-bxx  
 cd SbyuXd-bxx
-```
 
-### 2. Install Dependencies
+2. Install Dependencies
 
-```bash
 npm install
-```
 
-or
+or using yarn:
 
-```bash
 yarn install
-```
 
-### 3. Start Bot
+3. Run the Bot
 
-```bash
 npm start
-```
 
-### 4. Authentication
+4. Authentication
 
-On first run, a pairing code will appear in the terminal.  
-Enter the code inside WhatsApp to complete authentication.
+On first run, a pairing code will appear in the terminal. Enter this code in your WhatsApp application to complete the authentication process.
 
----
-
-## 🧩 Plugin Structure
-
-```javascript
-/** @type {import('#lib/types.js').Plugin} */
-export default {
-  name: "name",
-  category: "category",
-  command: ["command1"],
-  alias: ["cmd1"],
-
-  settings: {
-    owner: false,
-    private: false,
-    group: false,
-    admin: false,
-    botAdmin: false,
-    loading: false
-  },
-
-  run: async (conn, m, context) => {
-    const { Api, Func, downloadM, quoted, metadata, isOwner, isAdmin, isBotAdmin } = context
-  },
-
-  on: async (conn, m, context) => {}
-}
-```
 
 ---
 
-## 📁 Directory Structure
+Plugin Documentation
 
-```
-𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁/
-├── lib/
-│   ├── api.js
-│   ├── color.js
-│   ├── exif.js
-│   ├── function.js
-│   ├── loadPlugins.js
-│   ├── serialize.js
-│   └── types.js
-├── plugins/
-│   ├── downloader/
-│   ├── tools/
-│   └── utility/
-├── config.js
-├── handler.js
-├── index.js
-└── package.json
-```
+Plugin Structure
+
+Each plugin must follow this standard structure:
+
+/** @type {import('#lib/types.js').Plugin} */  
+export default {  
+  name: "name",                           // Plugin name (required)  
+  category: "category",                   // Plugin category (required)  
+  command: ["command1", "command2"],      // Command list (required)  
+  alias: ["cmd1", "cmd2"],                // Command aliases (optional)  
+    
+  // Plugin configuration (optional)  
+  settings: {  
+    owner: true,      // Owner-only feature  
+    private: false,   // Private chat only  
+    group: true,      // Group chat only  
+    admin: false,     // Group admin only  
+    botAdmin: true,   // Bot must be admin  
+    loading: false    // Send loading message  
+  },  
+  
+  // Main function called when command is executed (required)  
+  run: async (conn, m, context) => {  
+    const { Api, Func, downloadM, quoted, metadata, isOwner, isAdmin, isBotAdmin } = context;  
+    // Implementation code here  
+  },  
+  
+  // Function called on every incoming message (optional)  
+  on: async (conn, m, context) => {  
+    // Implementation code here  
+  }  
+};
+
+Context Parameters
+
+Parameter	Description
+
+Api	Wrapper for API-related functions (see lib/api.js)
+Func	Collection of utility functions (see lib/function.js)
+downloadM	Function to download media from messages
+quoted	Replied message object
+metadata	Group chat metadata
+isOwner	Boolean indicating if sender is owner
+isAdmin	Boolean indicating if sender is group admin
+isBotAdmin	Boolean indicating if bot is group admin
+
+
+Autocomplete (JSDoc)
+
+For autocomplete and type checking, add JSDoc above export default:
+
+/** @type {import('#lib/types.js').Plugin} */  
+export default {  
+  // ... plugin code  
+};
+
 
 ---
 
-## 🕶 Philosophy
+Directory Structure
 
-Minimal surface.  
-Maximum control.  
-Zero unnecessary overhead.  
+𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁/  
+├── lib/  
+│   ├── api.js              # API wrapper functions  
+│   ├── color.js            # Console color utilities  
+│   ├── exif.js             # EXIF metadata handler  
+│   ├── function.js         # General utility functions  
+│   ├── loadPlugins.js      # Plugin loader system  
+│   ├── serialize.js        # Message serialization  
+│   └── types.js            # TypeScript definitions  
+├── plugins/  
+│   ├── downloader/         # Download plugins  
+│   ├── tools/              # Tool plugins  
+│   └── utility/            # Utility plugins  
+├── config.js               # Configuration file  
+├── handler.js              # Message handler  
+├── index.js                # Entry point  
+└── package.json            # Package configuration
 
-Built for developers who prefer structure over chaos.
-
----
-
-## 🤝 Contributing
-
-1. Fork repository  
-2. Create branch: `feat/your-feature`  
-3. Commit changes  
-4. Push branch  
-5. Open Pull Request  
-
----
-
-## 📜 License
-
-MIT License.
 
 ---
 
-<div align="center">
+Contributing
 
-**Maintained by 𝗦𝗯𝘆𝘂𝗫𝗱**
+Contributions from the community are greatly appreciated. To contribute:
 
-⭐ Star the repository if this project helps you.
+1. Fork this repository
+
+
+2. Create a branch for your feature: git checkout -b feat/feature-name
+
+
+3. Commit your changes: git commit -m 'Add: feature description'
+
+
+4. Push to the branch: git push origin feat/feature-name
+
+
+5. Create a Pull Request
+
+
+
+For major changes, please open an issue first to discuss the changes you would like to make.
+
+
+---
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+---
+
+Contact
+
+Maintainer: 𝗦𝗯𝘆𝘂𝗫𝗱
+Repository: [https://github.com/bayuasli/SbyuXd-bxx]
+
+
+---
+
+Acknowledgments
+
+Special thanks to the following contributors and projects that have helped in the development of 𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁:
+
+<table>  
+  <tr>  
+    <td align="center">  
+      <a href="https://github.com/DikaArdnt">  
+        <img src="https://github.com/DikaArdnt.png?size=100" width="100px;" alt="Dika Ardnt"/>  
+        <br />  
+        <sub><b>Dika Ardnt</b></sub>  
+      </a>  
+    </td>  
+    <td align="center">  
+      <a href="https://github.com/WhiskeySockets/Baileys">  
+        <img src="https://github.com/WhiskeySockets.png?size=100" width="100px;" alt="WhiskeySockets"/>  
+        <br />  
+        <sub><b>Baileys Library</b></sub>  
+      </a>  
+    </td>  
+  </tr>  
+</table>  Contributors
+
+<table>  
+  <tr>  
+    <td align="center">  
+      <a href="https://github.com/AgusXzz">  
+        <img src="https://github.com/AgusXzz.png?size=100" width="100px;" alt="Agus"/>  
+        <br />  
+        <sub><b>bxx</b></sub>  
+      </a>  
+    </td>  
+    <td align="center">  
+      <a href="https://github.com/bayuasli">  
+        <img src="https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/ea972f-1770551587133.jpg" width="100px;" alt="SbyuXd"/>  
+        <br />  
+        <sub><b>Sibayu</b></sub>  
+      </a>  
+    </td>  
+    <td align="center">  
+      <a href="https://github.com/vryptt">  
+        <img src="https://github.com/vryptt.png?size=100" width="100px;" alt="Vcepirit"/>  
+        <br />  
+        <sub><b>Vcepirit</b></sub>  
+      </a>  
+    </td>  
+  </tr>  
+</table>  
+---
+
+<div align="center">  Made with ❤️ by the 𝗦𝗶𝗯𝗮𝘆𝘂𝗫𝗱 𝗕𝗼𝘁
+
+⭐ Don't forget to give a star if this project helps you!
 
 </div>
