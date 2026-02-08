@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![SIBAYUXD Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaK3_60MiEWpItg8BbrvcF4Be_vgIDd8Ggj13AYkPqGdUosLSmCMCtGSY&s=10)
+![SIBAYUXD Banner](https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/ea972f-1770551587133.jpg)
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
