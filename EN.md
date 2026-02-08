@@ -14,7 +14,7 @@ markdown
   <img src="https://img.shields.io/badge/MultiDevice-Enabled-00ff00?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="MultiDevice" style="animation: pulse 2s infinite;">
   <img src="https://img.shields.io/badge/Status-ACTIVE-brightgreen?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&color=00ff00" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=000000" alt="License">
-</div>
+
 
 <!-- Teks glow effect -->
 <p style="color: #00ffff; text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;">
@@ -34,7 +34,7 @@ markdown
   <span style="color: #00ffff">[✓]</span> 
   <span style="color: #ffffff">Security systems online</span><br>
   <span style="color: #00ff00">[ SYSTEM READY ]</span>
-</div>
+
 
 <!-- Badge dengan efek -->
 [![Node.js](https://img.shields.io/badge/Node.js-20+-black?style=for-the-badge&logo=nodedotjs&logoColor=00ff00)](https://nodejs.org/)
@@ -148,17 +148,17 @@ export default {
     loading: true
   },
   
-  // 🚀 Execution Function
+  🚀 Execution Function
   run: async (conn, m, context) => {
     const { Api, Func, isOwner } = context;
     
-    // 📊 System Metrics
+    📊 System Metrics
     const uptime = Func.formatTime(process.uptime());
     const memory = Func.formatBytes(process.memoryUsage().rss);
     const platform = process.platform;
     const nodeVersion = process.version;
     
-    // 💾 Build Response
+    💾 Build Response
     return await conn.sendMessage(m.chat, {
       text: `🖥️ *SYSTEM MONITOR*\n` +
             `╔══════════════════╗\n` +
@@ -214,7 +214,7 @@ queue Object Task queue system
 🛡️ SECURITY PROTOCOL MATRIX
 
 javascript
-// 🔐 SECURITY HIERARCHY
+🔐 SECURITY HIERARCHY
 const securityLevels = {
   LEVEL_OWNER: 4,      // 🔓 Full system access
   LEVEL_ADMIN: 3,      // 🛡️ Group administration
@@ -387,7 +387,7 @@ https://img.shields.io/badge/STAR-US!-ffd700?style=for-the-badge&logo=github&log
   <img src="https://img.shields.io/github/forks/bayuasli/SbyuXd-bxx?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=ff00ff&label=FORKS" alt="Forks" style="box-shadow: 0 0 10px #ff00ff;">
 </div>
 
-<!-- ASCII Art -->
+
 
 <pre style="color: #00ff00; font-size: 10px;">
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -403,7 +403,6 @@ https://img.shields.io/badge/STAR-US!-ffd700?style=for-the-badge&logo=github&log
 
 </div>
 
-<!-- CSS untuk animasi -->
 
 <style>
 @keyframes pulse {
