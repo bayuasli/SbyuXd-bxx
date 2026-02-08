@@ -1,4 +1,4 @@
-# SBYUXD-BXX  
+#  𝗦𝗯𝘆𝘂𝗫𝗗 - 𝘽𝗫𝗫
   
 <div align="center">  
   
@@ -9,7 +9,36 @@
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://www.javascript.com/)  
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Multi--Device-25D366.svg)](https://whatsapp.com/)  
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/bayuasli/-)  
+
+
   
+<img src="https://img.shields.io/badge/Version-2.0.0-black?style=for-the-badge&logo=github" alt="Version">
+<img src="https://img.shields.io/badge/MultiDevice-Enabled-green?style=for-the-badge&logo=whatsapp" alt="MultiDevice">
+<img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=vercel" alt="Status">
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="License">
+
+**A high-performance, modular WhatsApp bot engineered for stability, efficiency, and seamless multi-device operation.**
+
+[![Node.js](https://img.shields.io/badge/Node.js-20+-black?style=flat&logo=nodedotjs)](https://nodejs.org/)
+[![SQLite3](https://img.shields.io/badge/SQLite3-Enhanced-black?style=flat&logo=sqlite)](https://sqlite.org/)
+[![Baileys](https://img.shields.io/badge/Baileys-Latest-black?style=flat&logo=github)](https://github.com/WhiskeySockets/Baileys)
+
+
+
+
+## 🚀 **CORE ARCHITECTURE**
+
+ascii
+┌─────────────────────────────────────────────────────┐
+│                    SbyuXd-BXX Core                  │
+├─────────────────────────────────────────────────────┤
+│  • Multi-Device Protocol Layer                     │
+│  • Modular Plugin System                           │
+│  • Queue & Rate Limiter Engine                     │
+│  • Optimized Memory Management                     │
+│  • Context-Aware Security System                   │
+└─────────────────────────────────────────────────────┘
+
 A simple, lightweight, and easily customizable WhatsApp Multi-Device bot with a focus on stability and ease of use.  
   
 [Features](#features) • [Installation](#installation) • [Documentation](#plugin-documentation) • [Contributing](#contributing)  
