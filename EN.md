@@ -20,11 +20,31 @@ A simple, lightweight, and easily customizable WhatsApp Multi-Device bot with a 
 
 ## Features
 
-- **Multi-Device Support** - Compatible with WhatsApp Multi-Device
-- **Plugin Architecture** - Modular plugin system for easy development
-- **Lightweight** - Built with optimal performance
-- **Stable** - Focus on stability and reliability
-- **Easy to Use** - Simple installation and configuration
+clean, straight, no cringe:
+
+Multi Device Support - Fully compatible with WhatsApp Multi-Device
+
+Plugin Architecture - Modular plugin system for scalable development
+
+Lightweight - Optimized for low resource usage
+
+Stable - Designed with reliability as priority
+
+Easy to Use - Simple setup and configuration
+
+Powered by better-sqlite3 - Fast and efficient local database engine
+
+Queue System - Built-in message queue for smooth task handling
+
+Rate Limiter - Anti-spam protection with smart delay control
+
+Hot Plugin Loader - Auto-detect and load plugins dynamically
+
+Owner Evaluation Mode - Built-in eval & shell execution system
+
+Context-Based Permission System - Owner, admin, group, and private level control
+
+Memory Optimized - Periodic garbage collection for long uptime stability
 
 ---
 
