@@ -1,7 +1,7 @@
-markdown
 <div align="center">
 
 <!-- Animasi teks berkedip -->
+
 <h1>
   <span style="color: #00ff00">𝗦𝗯𝘆𝘂𝗫𝗗</span> 
   <span style="color: #ffffff">-</span> 
@@ -9,6 +9,7 @@ markdown
 </h1>
 
 <!-- Badge dengan animasi -->
+
 <div>
   <img src="https://img.shields.io/badge/Version-2.0.0-black?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=00ff00" alt="Version">
   <img src="https://img.shields.io/badge/MultiDevice-Enabled-00ff00?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000" alt="MultiDevice" style="animation: pulse 2s infinite;">
@@ -17,11 +18,13 @@ markdown
 </div>
 
 <!-- Teks glow effect -->
+
 <p style="color: #00ffff; text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;">
   <strong>🚀 HIGH-PERFORMANCE WHATSAPP BOT ENGINE 🚀</strong>
 </p>
 
 <!-- Terminal style -->
+
 <div style="background: #000000; border: 2px solid #00ff00; border-radius: 10px; padding: 15px; margin: 20px 0; text-align: left; font-family: 'Courier New', monospace;">
   <span style="color: #00ff00">$</span> 
   <span style="color: #ffffff">./sbyuxd --start</span><br>
@@ -37,18 +40,17 @@ markdown
 </div>
 
 <!-- Badge dengan efek -->
-[![Node.js](https://img.shields.io/badge/Node.js-20+-black?style=for-the-badge&logo=nodedotjs&logoColor=00ff00)](https://nodejs.org/)
-[![SQLite3](https://img.shields.io/badge/SQLite3-Enhanced-black?style=for-the-badge&logo=sqlite&logoColor=00ffff)](https://sqlite.org/)
-[![Baileys](https://img.shields.io/badge/Baileys-Latest-black?style=for-the-badge&logo=github&logoColor=ff00ff)](https://github.com/WhiskeySockets/Baileys)
-[![Uptime](https://img.shields.io/badge/UPTIME-99.9%25-00ff00?style=for-the-badge&logo=grafana&logoColor=white&labelColor=000000)]()
+
+https://img.shields.io/badge/Node.js-20+-black?style=for-the-badge&logo=nodedotjs&logoColor=00ff00
+https://img.shields.io/badge/SQLite3-Enhanced-black?style=for-the-badge&logo=sqlite&logoColor=00ffff
+https://img.shields.io/badge/Baileys-Latest-black?style=for-the-badge&logo=github&logoColor=ff00ff
+https://img.shields.io/badge/UPTIME-99.9%25-00ff00?style=for-the-badge&logo=grafana&logoColor=white&labelColor=000000
 
 </div>
 
 ---
 
-## 🌟 **NEON CORE ARCHITECTURE**
-
-```
+🌟 NEON CORE ARCHITECTURE
 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 █                                                         █
@@ -63,116 +65,100 @@ markdown
 █                                                         █
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
-```
+🔥 CYBER FEATURE MATRIX
 
-## 🔥 **CYBER FEATURE MATRIX**
+🎯 COMPONENT ⚡ STATUS 📡 DESCRIPTION
+🤖 Multi-Device Protocol <span style="color: #00ff00">✅ ACTIVE</span> Full WhatsApp Web compatibility
+🧩 Plugin Architecture <span style="color: #00ff00">✅ ACTIVE</span> Hot-reload, modular system
+💾 Memory Engine <span style="color: #00ff00">✅ OPTIMIZED</span> Auto garbage collection
+📊 Queue System <span style="color: #00ff00">✅ STABLE</span> Priority-based task management
+🛡️ Security Layer <span style="color: #00ff00">✅ ENABLED</span> Multi-level permission system
+🗄️ Database <span style="color: #00ff00">✅ SQLite3</span> High-performance storage
+⚡ Rate Limiter <span style="color: #00ff00">✅ ACTIVE</span> Intelligent delay control
+🔌 Hot Reload <span style="color: #00ff00">✅ READY</span> Dynamic plugin loading
 
-| 🎯 COMPONENT | ⚡ STATUS | 📡 DESCRIPTION |
-|--------------|-----------|----------------|
-| **🤖 Multi-Device Protocol** | <span style="color: #00ff00">✅ ACTIVE</span> | Full WhatsApp Web compatibility |
-| **🧩 Plugin Architecture** | <span style="color: #00ff00">✅ ACTIVE</span> | Hot-reload, modular system |
-| **💾 Memory Engine** | <span style="color: #00ff00">✅ OPTIMIZED</span> | Auto garbage collection |
-| **📊 Queue System** | <span style="color: #00ff00">✅ STABLE</span> | Priority-based task management |
-| **🛡️ Security Layer** | <span style="color: #00ff00">✅ ENABLED</span> | Multi-level permission system |
-| **🗄️ Database** | <span style="color: #00ff00">✅ SQLite3</span> | High-performance storage |
-| **⚡ Rate Limiter** | <span style="color: #00ff00">✅ ACTIVE</span> | Intelligent delay control |
-| **🔌 Hot Reload** | <span style="color: #00ff00">✅ READY</span> | Dynamic plugin loading |
+🚀 INSTALLATION COMMAND
 
-## 🚀 **INSTALLATION COMMAND**
+──────────────────────────────────────────
 
-```bash
-# ──────────────────────────────────────────
-#  S B Y U X D - B X X   D E P L O Y M E N T
-# ──────────────────────────────────────────
+S B Y U X D - B X X   D E P L O Y M E N T
 
-# 1. Clone Repository
+──────────────────────────────────────────
+
+1. Clone Repository
+
 git clone https://github.com/bayuasli/SbyuXd-bxx.git
 cd SbyuXd-bxx
 
-# 2. Install Dependencies
+2. Install Dependencies
+
 npm install --production
 
-# 3. Configure System
+3. Configure System
+
 cp config.example.js config.js
 nano config.js  # Edit configuration
 
-# 4. Launch Sequence
+4. Launch Sequence
+
 npm start
 
-# 5. Development Mode (Optional)
+5. Development Mode (Optional)
+
 npm run dev
 
-# ──────────────────────────────────────────
-#  SYSTEM INITIALIZATION COMPLETE
-# ──────────────────────────────────────────
-```
+──────────────────────────────────────────
+
+SYSTEM INITIALIZATION COMPLETE
+
+──────────────────────────────────────────
 
 💻 SYSTEM REQUIREMENTS
 
-```yaml
 System Specifications:
-  ⚡ Node.js: ">= 20.x"
-  📦 Package Manager: "npm >= 9.x or yarn >= 1.22.x"
-  💾 Storage: "500MB+ free space"
-  🧠 RAM: "1GB+ recommended"
-  🌐 Network: "Stable internet connection"
-  🔧 OS: "Linux/Windows/macOS"
-```
+⚡ Node.js: ">= 20.x"
+📦 Package Manager: "npm >= 9.x or yarn >= 1.22.x"
+💾 Storage: "500MB+ free space"
+🧠 RAM: "1GB+ recommended"
+🌐 Network: "Stable internet connection"
+🔧 OS: "Linux/Windows/macOS"
 
 🧬 PLUGIN DEVELOPMENT KIT
 
 Plugin Blueprint
 
-```javascript
 /**
- * 🔌 PLUGIN TEMPLATE - SbyuXd-BXX
- * @type {import('#lib/types.js').Plugin}
- * @name SystemMonitor
- * @category Cyber
- * @command ['sys', 'monitor']
- * @description Real-time system monitoring
- */
+
+· 🔌 PLUGIN TEMPLATE - SbyuXd-BXX
+· @type {import('#lib/types.js').Plugin}
+· @name SystemMonitor
+· @category Cyber
+· @command ['sys', 'monitor']
+· @description Real-time system monitoring
+  */
 
 export default {
-  name: "SystemMonitor",
-  category: "Cyber",
-  command: ["sys", "monitor", "stats"],
-  alias: ["system", "info"],
-  
-  // ⚙️ Settings Matrix
-  settings: {
-    owner: false,
-    private: true,
-    group: true,
-    admin: false,
-    botAdmin: false,
-    loading: true
-  },
-  
-  // 🚀 Execution Function
-  run: async (conn, m, context) => {
-    const { Api, Func, isOwner } = context;
-    
-    // 📊 System Metrics
-    const uptime = Func.formatTime(process.uptime());
-    const memory = Func.formatBytes(process.memoryUsage().rss);
-    const platform = process.platform;
-    const nodeVersion = process.version;
-    
-    // 💾 Build Response
-    return await conn.sendMessage(m.chat, {
-      text: `🖥️ *SYSTEM MONITOR*\n` +
-            `╔══════════════════╗\n` +
-            `║ 🔋 Uptime: ${uptime}\n` +
-            `║ 🧠 Memory: ${memory}\n` +
-            `║ 🖥️ Platform: ${platform}\n` +
-            `║ ⚡ Node.js: ${nodeVersion}\n` +
-            `╚══════════════════╝\n` +
-            `\n📡 *System Status: ONLINE*`
-    });
-  }
+name: "SystemMonitor",
+category: "Cyber",
+command: ["sys", "monitor", "stats"],
+alias: ["system", "info"],
+
+// ⚙️ Settings Matrix
+settings: {
+owner: false,
+private: true,
+group: true,
+admin: false,
+botAdmin: false,
+loading: true
+},
+
+// 🚀 Execution Function
+run: async (conn, m, context) => {
+const { Api, Func, isOwner } = context;
+
+}
 };
-```
 
 API Matrix
 
@@ -187,7 +173,6 @@ queue Object Task queue system
 
 📁 CYBER DIRECTORY STRUCTURE
 
-```
 ┌────────────────────────────────────────────────────────────┐
 │                    S B Y U X D - B X X                     │
 ├────────────────────────────────────────────────────────────┤
@@ -210,48 +195,50 @@ queue Object Task queue system
 │ 🧠 handler.js               # Message processor           │
 │ 🚀 index.js                 # Entry point                 │
 └────────────────────────────────────────────────────────────┘
-```
 
 🛡️ SECURITY PROTOCOL MATRIX
 
-```javascript
 // 🔐 SECURITY HIERARCHY
 const securityLevels = {
-  LEVEL_OWNER: 4,      // 🔓 Full system access
-  LEVEL_ADMIN: 3,      // 🛡️ Group administration
-  LEVEL_BOT_ADMIN: 2,  // ⚙️ Bot management
-  LEVEL_USER: 1,       // 👤 Standard user
-  LEVEL_BLOCKED: 0     // 🚫 Restricted access
+LEVEL_OWNER: 4,      // 🔓 Full system access
+LEVEL_ADMIN: 3,      // 🛡️ Group administration
+LEVEL_BOT_ADMIN: 2,  // ⚙️ Bot management
+LEVEL_USER: 1,       // 👤 Standard user
+LEVEL_BLOCKED: 0     // 🚫 Restricted access
 };
 
 // 🚨 PERMISSION CHECK
 const checkPermission = (userLevel, requiredLevel) => {
-  return userLevel >= requiredLevel;
+return userLevel >= requiredLevel;
 };
-```
 
 🤝 CONTRIBUTION COMMAND CENTER
 
-```bash
-# ──────────────────────────────────────────
-#  C O N T R I B U T E   T O   C O D E
-# ──────────────────────────────────────────
+──────────────────────────────────────────
 
-# 1. Fork Repository
+C O N T R I B U T E   T O   C O D E
+
+──────────────────────────────────────────
+
+1. Fork Repository
+
 git fork https://github.com/bayuasli/SbyuXd-bxx.git
 
-# 2. Create Feature Branch
+2. Create Feature Branch
+
 git checkout -b feat/cyber-enhancement
 
-# 3. Commit with Standards
+3. Commit with Standards
+
 git commit -m "🚀 FEAT: Add cyber enhancement system"
 
-# 4. Push Changes
+4. Push Changes
+
 git push origin feat/cyber-enhancement
 
-# 5. Create Pull Request
-# ──────────────────────────────────────────
-```
+5. Create Pull Request
+
+──────────────────────────────────────────
 
 🔧 Contribution Guidelines
 
@@ -284,21 +271,18 @@ Queue Capacity 1000+ <span style="color: #00ff00">✅ SCALABLE</span>
 
 🌐 DEPENDENCY MATRIX
 
-```json
 {
-  "🚀 Core": ["@whiskeysockets/baileys", "better-sqlite3"],
-  "🌐 Network": ["axios", "form-data", "ws"],
-  "🔧 Utility": ["moment", "chalk", "qrcode-terminal", "dotenv"],
-  "🎨 Media": ["sharp", "fluent-ffmpeg", "canvas"],
-  "🛡️ Security": ["crypto-js", "bcrypt", "jsonwebtoken"]
+"🚀 Core": ["@whiskeysockets/baileys", "better-sqlite3"],
+"🌐 Network": ["axios", "form-data", "ws"],
+"🔧 Utility": ["moment", "chalk", "qrcode-terminal", "dotenv"],
+"🎨 Media": ["sharp", "fluent-ffmpeg", "canvas"],
+"🛡️ Security": ["crypto-js", "bcrypt", "jsonwebtoken"]
 }
-```
 
 📜 CYBER LICENSE
 
 <div align="center">
 
-```
 ╔══════════════════════════════════════════════════════════════╗
 ║                     MIT LICENSE AGREEMENT                    ║
 ║                    S B Y U X D - B X X                       ║
@@ -317,7 +301,6 @@ Queue Capacity 1000+ <span style="color: #00ff00">✅ SCALABLE</span>
 ║ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR      ║
 ║ PURPOSE AND NONINFRINGEMENT.                                 ║
 ╚══════════════════════════════════════════════════════════════╝
-```
 
 </div>
 
@@ -438,4 +421,3 @@ https://img.shields.io/badge/STAR-US!-ffd700?style=for-the-badge&logo=github&log
   box-shadow: 0 0 20px #00ff00;
 }
 </style>
-
