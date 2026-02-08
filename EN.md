@@ -182,8 +182,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-**Maintainer:** Sibayuu  
-**Repository:** [https://github.com/bayuasli/SbyuXhttps://github.com/bayuasli/SbyuXd-bxx)
+**Maintainer:** 𝗦𝗯𝘆𝘂𝗫𝗱  
+**Repository:** [https://github.com/bayuasli/SbyuXd-bxx]
 
 ---
 
