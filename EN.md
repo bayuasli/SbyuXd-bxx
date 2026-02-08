@@ -223,7 +223,7 @@ Special thanks to the following contributors and projects that have helped in th
     </td>
     <td align="center">
       <a href="https://github.com/bayuasli">
-        <img src="https://github.com/purrbits.png?size=100" width="100px;" alt="Senn"/>
+        <img src="https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/ea972f-1770551587133.jpg" width="100px;" alt="SbyuXd"/>
         <br />
         <sub><b>Sibayu</b></sub>
       </a>
