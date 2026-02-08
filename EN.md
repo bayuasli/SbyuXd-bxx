@@ -1,6 +1,6 @@
-markdown
-<div align="center">
 
+<div align="center">
+![SIBAYUXD Banner](https://raw.githubusercontent.com/bayuasli/dat1/main/uploads/ea972f-1770551587133.jpg)  
 # 𝗦𝗯𝘆𝘂𝗫𝗗 - 𝘽𝗫𝗫
   
 <img src="https://img.shields.io/badge/Version-2.0.0-black?style=for-the-badge&logo=github" alt="Version">
