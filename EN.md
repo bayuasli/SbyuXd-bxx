@@ -1,4 +1,4 @@
-```markdown
+markdown
 <div align="center">
 
 <!-- Animasi teks berkedip -->
@@ -48,7 +48,6 @@
 
 ## 🌟 **NEON CORE ARCHITECTURE**
 
-```
 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 █                                                         █
@@ -63,7 +62,7 @@
 █                                                         █
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
-```
+
 
 ## 🔥 **CYBER FEATURE MATRIX**
 
@@ -80,7 +79,7 @@
 
 ## 🚀 **INSTALLATION COMMAND**
 
-```bash
+bash
 # ──────────────────────────────────────────
 #  S B Y U X D - B X X   D E P L O Y M E N T
 # ──────────────────────────────────────────
@@ -105,11 +104,11 @@ npm run dev
 # ──────────────────────────────────────────
 #  SYSTEM INITIALIZATION COMPLETE
 # ──────────────────────────────────────────
-```
+
 
 💻 SYSTEM REQUIREMENTS
 
-```yaml
+yaml
 System Specifications:
   ⚡ Node.js: ">= 20.x"
   📦 Package Manager: "npm >= 9.x or yarn >= 1.22.x"
@@ -117,13 +116,13 @@ System Specifications:
   🧠 RAM: "1GB+ recommended"
   🌐 Network: "Stable internet connection"
   🔧 OS: "Linux/Windows/macOS"
-```
+
 
 🧬 PLUGIN DEVELOPMENT KIT
 
 Plugin Blueprint
 
-```javascript
+javascript
 /**
  * 🔌 PLUGIN TEMPLATE - SbyuXd-BXX
  * @type {import('#lib/types.js').Plugin}
@@ -172,7 +171,7 @@ export default {
     });
   }
 };
-```
+
 
 API Matrix
 
@@ -187,7 +186,7 @@ queue Object Task queue system
 
 📁 CYBER DIRECTORY STRUCTURE
 
-```
+
 ┌────────────────────────────────────────────────────────────┐
 │                    S B Y U X D - B X X                     │
 ├────────────────────────────────────────────────────────────┤
@@ -210,11 +209,11 @@ queue Object Task queue system
 │ 🧠 handler.js               # Message processor           │
 │ 🚀 index.js                 # Entry point                 │
 └────────────────────────────────────────────────────────────┘
-```
+
 
 🛡️ SECURITY PROTOCOL MATRIX
 
-```javascript
+javascript
 // 🔐 SECURITY HIERARCHY
 const securityLevels = {
   LEVEL_OWNER: 4,      // 🔓 Full system access
@@ -228,11 +227,11 @@ const securityLevels = {
 const checkPermission = (userLevel, requiredLevel) => {
   return userLevel >= requiredLevel;
 };
-```
+
 
 🤝 CONTRIBUTION COMMAND CENTER
 
-```bash
+bash
 # ──────────────────────────────────────────
 #  C O N T R I B U T E   T O   C O D E
 # ──────────────────────────────────────────
@@ -251,7 +250,7 @@ git push origin feat/cyber-enhancement
 
 # 5. Create Pull Request
 # ──────────────────────────────────────────
-```
+
 
 🔧 Contribution Guidelines
 
@@ -284,7 +283,7 @@ Queue Capacity 1000+ <span style="color: #00ff00">✅ SCALABLE</span>
 
 🌐 DEPENDENCY MATRIX
 
-```json
+json
 {
   "🚀 Core": ["@whiskeysockets/baileys", "better-sqlite3"],
   "🌐 Network": ["axios", "form-data", "ws"],
@@ -292,13 +291,13 @@ Queue Capacity 1000+ <span style="color: #00ff00">✅ SCALABLE</span>
   "🎨 Media": ["sharp", "fluent-ffmpeg", "canvas"],
   "🛡️ Security": ["crypto-js", "bcrypt", "jsonwebtoken"]
 }
-```
+
 
 📜 CYBER LICENSE
 
 <div align="center">
 
-```
+
 ╔══════════════════════════════════════════════════════════════╗
 ║                     MIT LICENSE AGREEMENT                    ║
 ║                    S B Y U X D - B X X                       ║
@@ -317,7 +316,7 @@ Queue Capacity 1000+ <span style="color: #00ff00">✅ SCALABLE</span>
 ║ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR      ║
 ║ PURPOSE AND NONINFRINGEMENT.                                 ║
 ╚══════════════════════════════════════════════════════════════╝
-```
+
 
 </div>
 
@@ -439,4 +438,3 @@ https://img.shields.io/badge/STAR-US!-ffd700?style=for-the-badge&logo=github&log
 }
 </style>
 
-```
